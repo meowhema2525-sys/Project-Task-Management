@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/tasks";
+const API = "https://project-task-management-9kr1.onrender.com/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
